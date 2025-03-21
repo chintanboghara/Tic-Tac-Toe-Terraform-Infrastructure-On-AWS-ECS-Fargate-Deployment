@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <h1>Application</h1>
+    <p id="status"></p>
+    <script>
+      fetch("/api/health")
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("status").innerText =
+            "Status: " + data.status;
+        })
+        .catch((error) => {
+          document.getElementById("status").innerText = "Error: " + error;
+        });
+    </script>
+  </body>
+</html>
