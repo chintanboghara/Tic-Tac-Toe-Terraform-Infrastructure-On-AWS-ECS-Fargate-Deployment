@@ -1,9 +1,22 @@
-
 # Terraform files
-.terraform/
 *.tfstate
-*.tfstate.*
-*.tfvars
+*.tfstate.backup
+terraform.tfvars
 
-# Local build artifacts (optional, minimal in this case)
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually local settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore local modules, if any
+.terraform/
+
+# Log files
 *.log
+
+# OS-specific files
+.DS_Store
