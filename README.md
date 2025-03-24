@@ -30,7 +30,7 @@ Deploy the Tic-Tac-Toe application as a Docker container on AWS ECS (Elastic Con
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/<your-username>/Tic-Tac-Toe-Terraform-Infrastructure-On-AWS-ECS-Fargate-Deployment.git
+   git clone https://github.com/chintanboghara/Tic-Tac-Toe-Terraform-Infrastructure-On-AWS-ECS-Fargate-Deployment.git
    cd Tic-Tac-Toe-Terraform-Infrastructure-On-AWS-ECS-Fargate-Deployment
    ```
 
